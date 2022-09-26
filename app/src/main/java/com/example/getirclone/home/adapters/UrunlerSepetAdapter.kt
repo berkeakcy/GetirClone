@@ -85,11 +85,4 @@ class UrunlerSepetAdapter(private val mContext:Context,private val urunlerSepetL
     override fun getItemCount(): Int {
         return urunlerSepetList.size
     }
-
-    fun urunSepetListUpdate(newUrunlerSepetList:List<Urunler>){
-        urunlerSepetList.clear()
-        urunlerSepetList.addAll(newUrunlerSepetList)
-        notifyDataSetChanged()
-    }
-
 }

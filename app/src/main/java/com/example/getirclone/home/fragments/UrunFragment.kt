@@ -25,8 +25,6 @@ class UrunFragment : Fragment(){
     private lateinit var fragmentHeaderList : List<String>
     private val args:UrunFragmentArgs by navArgs()
     private lateinit var urundb:UrunlerDatabase
-    private lateinit var urunlerViewModel:UrunlerViewModel
-    private var urunAdet:Int = 0
     private lateinit var urunViewModel: UrunViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +36,6 @@ class UrunFragment : Fragment(){
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         binding = FragmentUrunBinding.inflate(inflater)
 
         val application = requireNotNull(this.activity).application

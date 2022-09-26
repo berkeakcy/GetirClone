@@ -57,13 +57,8 @@ class UrunlerSearchAdapter(private val mContext: Context, private var urunlerLis
             it.findNavController().navigate(SearchFragmentDirections.actionSearchFragmentToUrunFragment2(urun))
         }
         holder.urun_button.setOnClickListener(){
-            //urun.urun_adet += 1
-            //val newUrun = Urunler(urun.urun_id,urun.urun_ad,urun.urun_fiyat,urun.urun_resim,urun.kategori_id,urun.urun_adet)
-            //urundb?.urunlerDao()?.update(newUrun)
             Toast.makeText(mContext,"Ürün Sepetinize Eklendi", Toast.LENGTH_LONG).show()
             if(urun.urun_adet < 5){
-                //urun.urun_adet += 1
-                //val newUrun = Urunler(urun.urun_id,urun.urun_ad,urun.urun_fiyat,urun.urun_resim,urun.kategori_id,urun.urun_adet)
                 searchViewModel.urunAdetPlusUpdate(urun)
                 Toast.makeText(mContext,"Ürün Sepetinize Eklendi",Toast.LENGTH_LONG).show()
             }

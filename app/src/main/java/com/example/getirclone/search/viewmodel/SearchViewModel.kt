@@ -31,9 +31,4 @@ class SearchViewModel(val urundb:UrunlerDao,application: Application):AndroidVie
         }
     }
 
-    fun urunAra(arama:String){
-        viewModelScope.launch {
-            _urunlerList.value = urundb.urunAra(arama)
-        }
-    }
 }

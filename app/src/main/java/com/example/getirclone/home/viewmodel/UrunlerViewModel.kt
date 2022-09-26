@@ -78,11 +78,6 @@ class UrunlerViewModel(val urundb:UrunlerDao, application: Application):AndroidV
         }
     }
 
-    fun urunAra(aramaKelimesi: String) {
-        viewModelScope.launch {
-            _urunlerList.value = urundb.urunAra(aramaKelimesi)
-        }
-    }
 
     fun tabLayout() {
         val fragmentList = arrayListOf<Fragment>()

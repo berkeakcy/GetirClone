@@ -22,6 +22,4 @@ interface UrunlerDao {
     @Query("SELECT * FROM urunler WHERE urunAdet>=1")
     suspend fun urunSepette():List<Urunler>
 
-    @Query("SELECT * FROM urunler WHERE urunAd like '%' || :aramaKelimesi || '%'")
-    suspend fun urunAra(aramaKelimesi:String):List<Urunler>
 }

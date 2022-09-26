@@ -9,12 +9,8 @@ import com.example.getirclone.R
 import com.example.getirclone.databinding.FragmentIcindekilerBinding
 
 
-class IcindekilerFragment(val urunIcindekiler:String) : Fragment() {
+class IcindekilerFragment(private val urunIcindekiler:String) : Fragment() {
     private lateinit var binding: FragmentIcindekilerBinding
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

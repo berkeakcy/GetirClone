@@ -26,7 +26,6 @@ class SearchFragment : Fragment() {
     private lateinit var binding:FragmentSearchBinding
     private lateinit var urundb:UrunlerDatabase
     private lateinit var urunlerList:List<Urunler>
-    private lateinit var newUrunlerList:ArrayList<Urunler>
     private lateinit var adapter:UrunlerSearchAdapter
     private lateinit var searchViewModel: SearchViewModel
     override fun onCreateView(
@@ -46,7 +45,6 @@ class SearchFragment : Fragment() {
 
         searchViewModel.urunlerList.observe(viewLifecycleOwner){
             urunlerList = it
-            Log.i("msg","observe edildi")
             adapter = UrunlerSearchAdapter(requireContext(),urunlerList,searchViewModel)
             binding.araRv.adapter = adapter
         }
@@ -57,23 +55,10 @@ class SearchFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        urundb = UrunlerDatabase.getUrunlerDatabase(requireContext())!!
-        //urunlerList = urundb.urunlerDao().allUrunler() as ArrayList<Urunler>
-        //newUrunlerList = urundb.urunlerDao().allUrunler() as ArrayList<Urunler>
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        //urunlerList = urundb.urunlerDao().urunAra("coca") as ArrayList<Urunler>
-
-        /*binding.apply {
-            araRv.setHasFixedSize(true)
-            araRv.layoutManager = GridLayoutManager(requireContext(),4,GridLayoutManager.VERTICAL,false)
-            adapter = UrunlerSearchAdapter(requireContext(),urunlerList,searchViewModel)
-            araRv.adapter = adapter
-        }*/
-
         getUrunler()
 
         binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
@@ -83,7 +68,6 @@ class SearchFragment : Fragment() {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                //newText?.let { searchViewModel.urunAra(it) }
                 newText?.let { filter(it) }
                 return false
             }

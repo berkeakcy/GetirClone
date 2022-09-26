@@ -48,7 +48,6 @@ class AtistirmalikFragment (val key:Int):Fragment() {
                 binding.progressBar.visibility = View.INVISIBLE
             }
         }
-        //urunlerViewModel.urunFiltre(kId.kategoriId)
         urunlerViewModel.urunlerList.observe(viewLifecycleOwner){
             urunList = it
             adapter = UrunlerAdapter(requireContext(),urunList,urunlerViewModel)
@@ -57,10 +56,6 @@ class AtistirmalikFragment (val key:Int):Fragment() {
         binding.lifecycleOwner = this
 
         return binding.root
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

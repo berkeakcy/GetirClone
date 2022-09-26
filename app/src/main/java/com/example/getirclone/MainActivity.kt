@@ -26,21 +26,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity()  {
     private lateinit var binding:ActivityMainBinding
-    private lateinit var urunlerViewModel: UrunlerViewModel
-    private lateinit var sepetViewModel: SepetViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
-
-/*        val application = requireNotNull(this).application
-        val dataSource = UrunlerDatabase.getUrunlerDatabase(application)?.urunlerDao()
-
-        val viewModelFactory = dataSource?.let { SepetViewModelFactory(it, application) }
-        sepetViewModel = viewModelFactory?.let {
-            ViewModelProvider(this, it).get(SepetViewModel::class.java)
-        }!!
-
-        binding.lifecycleOwner = this*/
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         NavigationUI.setupWithNavController(bottom_nav,navHostFragment.navController)
@@ -53,6 +42,5 @@ class MainActivity : AppCompatActivity()  {
 
     override fun onCreateView(name: String, context: Context, attrs: AttributeSet): View? {
         return super.onCreateView(name, context, attrs)
-
     }
 }

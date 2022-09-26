@@ -9,12 +9,8 @@ import androidx.navigation.fragment.navArgs
 import com.example.getirclone.databinding.FragmentDetaylarBinding
 
 
-class DetaylarFragment(val urunDetaylar:String) : Fragment() {
+class DetaylarFragment(private val urunDetaylar:String) : Fragment() {
     private lateinit var binding:FragmentDetaylarBinding
-    //private val args:DetaylarFragmentArgs by navArgs()
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -26,7 +22,6 @@ class DetaylarFragment(val urunDetaylar:String) : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.outputText.text = urunDetaylar
     }
 }
