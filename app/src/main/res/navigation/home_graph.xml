@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/anaSayfaFragment">
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.example.getirclone.SepetFragment"
+        android:label="SepetFragment">
+        <argument
+            android:name="urun"
+            app:argType="com.example.getirclone.home.dataclass.Urunler" />
+        <action
+            android:id="@+id/action_sepetFragment_to_urunFragment2"
+            app:destination="@id/urunFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.getirclone.home.fragments.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa">
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_urunlerFragment"
+            app:destination="@id/urunlerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/urunlerFragment"
+        android:name="com.example.getirclone.home.fragments.UrunlerFragment"
+        android:label="fragment_urunler"
+        tools:layout="@layout/fragment_urunler" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_urunlerFragment_to_urunFragment"
+            app:destination="@id/urunFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/urunFragment"
+        android:name="com.example.getirclone.UrunFragment"
+        android:label="fragment_urun"
+        tools:layout="@layout/fragment_urun" >
+        <argument
+            android:name="urun"
+            app:argType="com.example.getirclone.home.dataclass.Urunler" />
+    </fragment><action android:id="@+id/action_global_sepetFragment" app:destination="@id/sepetFragment"/>
+</navigation>

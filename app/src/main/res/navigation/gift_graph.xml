@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gift_graph"
+    app:startDestination="@id/giftFragment">
+
+    <fragment
+        android:id="@+id/giftFragment"
+        android:name="com.example.getirclone.GiftFragment"
+        android:label="fragment_gift"
+        tools:layout="@layout/fragment_gift" />
+</navigation>

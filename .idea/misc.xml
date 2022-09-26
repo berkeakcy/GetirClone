@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/drawable-xxxhdpi/xxximg.xml" value="0.172" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/drawable/custom_layout.xml" value="0.1675" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/drawable/ic_baseline_grid_off_24.xml" value="0.1675" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/drawable/ic_baseline_headset_24.xml" value="0.1675" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1715" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/acme.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/asul.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/calibri.xml" value="0.14351851851851852" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/lemon.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/montserrat_alternates.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/font/montserrat_alternates_thin.xml" value="0.2394736842105263" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-large/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-normal/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-normal/card_tasarim.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-normal/fragment_ana_sayfa.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/activity_main.xml" value="0.6" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/card_tasarim.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/fragment_ana_sayfa.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/fragment_atistirmalik.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/fragment_detaylar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/fragment_sepet.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/fragment_urun.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/fragment_urunler.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/slider_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/urunler_card_tasarim.xml" value="0.4" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw320dp/urunler_sepet_tasarim.xml" value="0.4" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw390dp/activity_main.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw390dp/fragment_sepet.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw400dp/activity_main.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw410dp/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw410dp/fragment_ana_sayfa.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw480dp/activity_main.xml" value="0.224609375" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/activity_main.xml" value="0.3410041841004184" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/card_tasarim.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_ana_sayfa.xml" value="0.536" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_atistirmalik.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_detaylar.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_icindekiler.xml" value="0.43033509700176364" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_search.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_sepet.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_urun.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/fragment_urunler.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/slider_item.xml" value="0.38125" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/urunler_card_tasarim.xml" value="0.4" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xhdpi/urunler_sepet_tasarim.xml" value="0.4" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xlarge/activity_main.xml" value="0.3116219667943806" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/activity_main.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/card_tasarim.xml" value="0.2" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/fragment_ana_sayfa.xml" value="0.2" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/fragment_atistirmalik.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/fragment_detaylar.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/fragment_icindekiler.xml" value="0.23472823472823473" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/fragment_sepet.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/fragment_urun.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/slider_item.xml" value="0.2" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/urunler_card_tasarim.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxhdpi/urunler_sepet_tasarim.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/activity_main.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/card_tasarim.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_ana_sayfa.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_atistirmalik.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_detaylar.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_icindekiler.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_sepet.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_urun.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/fragment_urunler.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/slider_item.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/urunler_card_tasarim.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout-xxxhdpi/urunler_sepet_tasarim.xml" value="0.190625" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/activity_main.xml" value="1.0748898678414096" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/asd.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/card_tasarim.xml" value="0.72" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_ana_sayfa.xml" value="0.8800000000000001" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_atistirmalik.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_blank_fragmentaaasdfass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_blank_fragmentas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_damacana.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_detaylar.xml" value="1.0748898678414096" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_firindan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_gift.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_giris.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_icindekiler.xml" value="0.72" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_indirimler.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_kullanim.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_meyve.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_person.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_sepet.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_su_ve_icecek.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_temel_gida.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_urun.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_urunler.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_urunler_viewpager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_yeni_urunler.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/fragment_yeni_urunler2.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/slider_item.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/slideritem.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/urunler_card_tasarim.xml" value="0.8800000000000001" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/urunler_sepet_tasarim.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/layout/urunler_viewpager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/musta/Desktop/Getirclone/app/src/main/res/xml/root_preferences.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
