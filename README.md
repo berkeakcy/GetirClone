@@ -9,6 +9,7 @@ you can add the listed products to the shopping basket and remove the products f
 + MVVM ( Model - View - ViewModel )
 + DataBinding
 + Room Database
++ Coroutines
 + Repository
 + Toolbar
 + ImageSlider
