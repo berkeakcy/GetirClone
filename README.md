@@ -1,5 +1,5 @@
 # GetirClone 
-you can add the listed products to the shopping basket and remove the products from the shopping basket. You can search the products from the search page . (Gift and person will be updated later)
+you can add the listed products to the shopping basket and remove the products from the shopping basket. You can search the products from the search page . (Gift and person will be update later)
 
 # Used Technologies
 + Kotlin
